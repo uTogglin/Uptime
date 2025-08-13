@@ -1,4 +1,4 @@
-# Uptime page made with Hetrix API 
+# Modern Uptime
 
 A modern, beautiful status page built on top of the Hetrix Tools API, This project transforms the standard Hetrix monitoring data into an elegant, user-friendly status dashboard.
 
