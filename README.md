@@ -17,9 +17,10 @@ Method 1: Cloudflare Pages (Recommended)
 3. Set framework preset to Next.JS
 4. Set up your environment variables:
    - `HETRIX_API_TOKEN=<your_api_key>`
+   - `WEBHOOK_URL=your_webhook_url_here` (Use Discord Webhook link for alerts)
    - `NEXT_PUBLIC_SHOW_SYSTEM_STATS=true` (optional, will use a lot of requests for system usage if you have a lot of monitors)
    - `NEXT_PUBLIC_SHOW_NETWORK_STATS=false` (disable this if you disabled system stats too)
-   - `NODE_VERSION=22.1.0`
+   - `NODE_VERSION=22.10.0`
 5. Deploy and Enjoy
 
 **Receiving Node.jS Compatibility Error?**
@@ -33,8 +34,8 @@ Method 2: Other
 1. Clone the repository
 
 ```bash
-git clone https://github.com/unclevak/status-page.git
-cd status-page
+git clone https://github.com/uTogglin/Uptime.git
+cd Uptime-main
 ```
 
 2. Install dependencies
@@ -62,8 +63,11 @@ pnpm dev
 
 ## Environment Variables
 
-- `HETRIX_API_KEY` - Your Hetrix Tools API key
-- `SHOW_SYSTEM_STATS` - Toggle system usage statistics display (true/false)
+   - `HETRIX_API_TOKEN=<your_api_key>`
+   - `WEBHOOK_URL=your_webhook_url_here` (Use Discord Webhook link for alerts)
+   - `NEXT_PUBLIC_SHOW_SYSTEM_STATS=true` (optional, will use a lot of requests for system usage if you have a lot of monitors)
+   - `NEXT_PUBLIC_SHOW_NETWORK_STATS=false` (disable this if you disabled system stats too)
+   - `NODE_VERSION=22.10.0`
 
 > Note: No API keys in the commit history are valid.
 
