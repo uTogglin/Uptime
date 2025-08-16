@@ -6,7 +6,7 @@ export function Footer() {
           <div className="flex flex-col items-center sm:items-start space-y-3">
             <div className="flex flex-wrap items-center justify-center sm:justify-start gap-x-1">
               <a
-                href="https://github.com/utogglin/hetrix-status-page"
+                href="https://github.com/uTogglin/Uptime"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="transition-colors duration-200 hover:text-amber-500 inline-flex items-center gap-1"
